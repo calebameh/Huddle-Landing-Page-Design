@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0);
+    transition: background 0.5s ease;
+}
+
+.hero-image {
+    width: 650px;
+}
+
+.card-1 {
+    padding: 40px;
+}
+
+.card-2 {
+    padding-right: 50px;
+}
+
+
+.header-button{
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px 1px rgb(205, 202, 202) ;
+    cursor: pointer;
+
+}
+
+.hero-section{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%)
+
+
+}
+
+.first-section{
+    margin-top: -190px;
+    padding-top: 50px;
+}
+
+
+/* background  */
+main {
+
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+/* section containing the texts content and form */
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.grow-together-section, .your-users-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 30px 40px 20px rgba(0, 0, 0, .1);
+    margin: 130px;
+    padding-top: -60px;
+
+}
+
+.flowing-conversation-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 30px 40px 20px rgba(0, 0, 0, .1);
+    margin: 130px;
+    padding-top: -60px;
+
+}
+
+
+
+/* Heading text */
+h1 {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 42px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 42px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+/* body text */
+.first-content {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.grow-together-content{
+    color: hsl(208, 11%, 55%);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.your-users-content {
+    color: hsl(208, 11%, 55%);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.flowing-conversation-content {
+    color: hsl(208, 11%, 55%);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+/* banner at the top of the form */
+.top-button {
+    color: whitesmoke;
+    background-color: hsl(322, 100%, 66%);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 50px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 25px;
+}
+
+
+
+
+.grow-together-image, .flowing-conversation-image,
+.your-users-image
+{
+    width: 350px;
+}
+
+
+table {
+    box-shadow: 0 30px 40px 20px rgba(0, 0, 0, .1);
+    width: fit-content;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.call-to-action-section {
+    justify-content: center;
+    margin-top: -200px;
+    margin-bottom: -300px;
+}
+
+.call-to-action-button {
+    color: whitesmoke;
+    background-color: hsl(322, 100%, 66%);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 25px;
+}
+
+td {
+    text-align: center;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    min-height: 400px;
+    padding: 20px;
+}
+
+.footer-logo{
+    filter: brightness(100) grayscale(100) contrast(100);
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media screen and (max-width: 618px) {
+    main {
+        text-align: center;
+        padding-bottom: 200px;
+    }
+
+    .hero-section {
+        background-image: url(/images/bg-hero-mobile.svg);
+
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 42px;
+        padding-bottom: 10px;
+    }
+
+    h1 {
+        padding-top: 120px;
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        line-height: 42px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+
+    }
+
+    .hero-image {
+        width: 350px;
+    }
+
+
+    .card-2 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .card-1 {
+
+        width: 100%;
+        padding: 0;
+        padding-top: 50px;
+        margin: 0;
+
+    }
+
+    .grow-together-section{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: auto;
+        height: 120vh;
+        border-radius: 10px;
+        box-shadow: 0 30px 40px 20px rgba(0, 0, 0, .1);
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+
+    }
+
+    .grow-together-content{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .grow-together-image {
+        width: 250px;   
+    }
+
+
+    .flowing-conversation-section {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 120vh;
+        border-radius: 10px;
+        box-shadow: 0 30px 40px 20px rgba(0, 0, 0, .1);
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+        margin-bottom: 20px;       
+
+    }
+
+    .flowing-conversation-content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .flowing-conversation-image {
+        width: 250px;
+    }
+
+
+    .your-users-section {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: auto;
+        height: 120vh;
+        border-radius: 10px;
+        box-shadow: 0 30px 40px 20px rgba(0, 0, 0, .1);
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .your-users-content{
+        padding-left: 30px;
+        padding-right: 30px;
+        }
+
+    .your-users-image {
+        width: 250px;
+    }
+
+    table{
+        margin-left: 8px;
+        margin-right: 8px;
+  
+    }
+    .call-to-action-button{
+        font-size: 12px;
+    }
+    .call-to-action-text{
+        font-size: 18px;
+    }
+
+    .call-to-action-section{
+        margin-bottom: -350px;
+    }
+
+}
